@@ -1,6 +1,6 @@
 **Python Nmap Vulnerability Scanner**
 
-This is a little Python project I built to automate Nmap scans and make it easier to spot weak crypto (old TLS versions, bad ciphers, sketchy certificates, etc.). Instead of reading massive Nmap outputs every time, this script cleans it up and prints a readable report.
+This is a little Python project I built to automate Nmap scans and make it easier to spot weak crypto (old TLS versions, bad ciphers, untrusted certificates, etc.). Instead of reading massive Nmap outputs every time, this script cleans it up and prints a readable report.
 It’s mainly for learning python + useful for some CTF boxes I’ve been working on.
 
 What it does
